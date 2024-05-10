@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../testing/Login/WhatsApp Image 2024-05-09 at 5.01.51 PM.jpeg ">
+</head>
+<body>
+   <header class="header">
+<a href="#" class="logo">
+   <div id="logo"><img src="../testing/image/IMG.png" ></div> 
+   </a>
+    <!--nav-->
+    <nav class="headbar">
+        <a href="home.html">Home</a>
+        <a href="file:///Users/mohamedyahya/Downloads/css%20project/testing/login.html">Login</a>
+        <a href="file:///Users/mohamedyahya/Downloads/css%20project/testing/Product%20Details%201.html">Medicine</a>
+        <a href="file:///Users/mohamedyahya/Downloads/css%20project/testing/Services.html">Service</a>
+        <a href="file:///Users/mohamedyahya/Downloads/css%20project/testing/contactus.html">Contact Us</a>
+
+    </nav>
+    <div class="menubtn">
+<button onclick=document.location="file:///Users/mohamedyahya/Downloads/css%20project/testing/Services.html">Helpline</button>
+    </div>
+ </header> 
+
+<!-- main-->
+
+<section class="main">
+    <div class="left">
+    <h2>We Are Here From Your Care</h2>
+    <h1>We Are The Best Pharmacy</h1>
+    <p>We Are Here From Your Care 24/7.Any Help Just Call Us</p>
+    <div class="menubtn">
+         <button onclick=document.location="file:///Users/mohamedyahya/Downloads/css%20project/testing/contactus.html">For any Medical Consultation</button>
+      </div>
+</div>
+<div class="right">
+    <img src="../testing/image/WhatsApp Image 2024-04-20 at 1.39.39 AM.jpeg" >
+</div>
+
+</section>
+<footer class="footer">
+    <p> &copy copyrights are reserved by TEAM </p> 
+    
+      
+      </div>
+      
+      </div>
+    
+  </footer>
+<script>
+   
+    var loginLink = document.querySelector('nav a[href="file:///Users/mohamedyahya/Downloads/css%20project/testing/login.html"]');
+    var servicesLink = document.querySelector('nav a[href="file:///Users/mohamedyahya/Downloads/css%20project/testing/Services.html"]');
+    var contactUsLink = document.querySelector('nav a[href="file:///Users/mohamedyahya/Downloads/css%20project/testing/contactus.html"]');
+    var medicineLink = document.querySelector('nav a[href="file:///Users/mohamedyahya/Downloads/css%20project/testing/Product%20Details%201.html"]');
+   
+    loginLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = loginLink.href;
+    });
+
+    servicesLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = servicesLink.href;
+    });
+
+    contactUsLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = contactUsLink.href;
+    });
+
+    medicineLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = medicineLink.href;
+    });
+</script>
+</body>
+</html>

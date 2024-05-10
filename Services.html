@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services - Pharmacy Website</title>
+    <link rel="stylesheet" href="Services.css">
+    <link rel="shortcut icon" href="../testing/Login/WhatsApp Image 2024-05-09 at 5.01.51 PM.jpeg ">
+</head>
+
+<body>
+    <header>
+        <h1>Pharmacy Services</h1>
+    </header>
+    <div class="cards">
+        <section class="services">
+            <div class="service-item">
+                <img src="../testing/Services/css/IMG_1288.PNG" alt="Medicine Icon" class="service-icon">
+               <a href="#" id="medicine-link"><h2>Medicine Supply</h2></a> 
+                <p>We provide a wide range of medicines for various health conditions.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="../testing/Services/css/IMG_1284.PNG" alt="Consultation Icon" class="service-icon">
+                <a href="file:///Users/mohamedyahya/Downloads/css%20project/testing/contactus.html"><h2>Pharmacist Consultation</h2></a>
+                <p>Our experienced pharmacists are available to provide consultation on medications and health issues.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <img src="../testing/Services/css/IMG_1286.PNG" alt="Delivery Icon" class="service-icon">
+                <h2>Home Delivery</h2>
+                <p>Get your medicines delivered to your doorstep with our home delivery service.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p> &copy copyrights are reserved by TEAM </p>
+    </footer>
+
+    <script>
+        
+        var medicineLink = document.getElementById('medicine-link');
+        
+      
+        medicineLink.addEventListener('click', function(event) {
+            event.preventDefault(); //
+            window.location.href = "file:///Users/mohamedyahya/Downloads/css%20project/testing/Product%20Details%201.html"; // 
+        });
+    </script>
+</body>
+
+</html>

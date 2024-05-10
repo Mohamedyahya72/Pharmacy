@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../testing/image/d2.png);
+    background-size: cover;
+    background-repeat: no;
+
+    background-size: 100%;
+
+}
+
+.Signup {
+    font-size: 20px;
+    width: 255px;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text {
+    color: rgb(14, 152, 232);
+    text-align: center;
+    padding: 10px;
+}
+
+.formF {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    right: 50%;
+    left: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: border-box;
+
+    background: rgb(69, 87, 101);
+
+}
+
+.imgLogoFb {
+    width: 255px;
+    height: 40px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.formF h1 {
+    padding: 10px;
+    color: rgb(14, 152, 232);
+}
+
+#pC {
+    color: rgb(252, 252, 252);
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-shadow: 2px 3px 1px rgb(24, 135, 240);
+}
+
+.hr hr,
+p {
+    display: inline-block;
+}
+
+#hr1 {
+    margin-top: 20px;
+    width: 38%;
+    height: 2px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+#hr2 {
+    margin-top: 20px;
+    width: 38%;
+    height: 2px;
+    margin-left: 20px;
+    background-color: #fff;
+    float: left;
+
+
+}
+
+
+
+
+.imgLogoFb img {
+    float: left;
+    margin-left: 48px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+.imgLogoFb p {
+    color: rgb(31, 137, 224);
+    float: left;
+    padding: 10px;
+    font-family: serif;
+    font-weight: bold;
+    margin-left: 0px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+
+form img {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+form input {
+    width: 70%;
+    height: 25px;
+    text-align: center;
+
+    border-radius: 0 10px 10px 0px;
+    border: none;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 60px;
+
+}
+
+.inUser1 {
+
+
+    margin-top: 5px;
+    margin-left: 21px;
+    margin-right: 100px;
+    margin-bottom: -85px;
+}
+
+
+
+.divImg {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+
+}
+
+#div2 {
+    margin-top: 10px;
+}
+
+form {
+
+    margin-top: 60px;
+}
+
+#btnLogin {
+    width: 86%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(31, 137, 224);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+#btnLogin:hover {
+    background-color: rgb(112, 186, 255);
+
+}
+
+.supDiv {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: -46px;
+    font-size: 15px;
+    color: rgb(54, 144, 240);
+
+}
+
+
+#fotgt {
+    color: rgb(54, 144, 240);
+    text-decoration: none;
+    margin-top: 10px;
+    float: right;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+.log a{
+text-decoration: none;
+color: white;
+}
+
+#fotgt a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+#upDiv:checked+p {
+    color: rgb(83, 83, 237);
+}
+
+#btnLogin {
+    text-decoration: none;
+}

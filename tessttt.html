@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products Details</title>
+  <link rel="stylesheet" href="Product Details 1.css">
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Medicines</h1>
+    <div class="product-row">
+      <div class="product">
+        <img src="R.png" class="product-image" >
+        <div class="details hidden">
+          <h2>NETLOOK</h2>
+          <p>This medication is used to treat severe cystic acne (also known as nodular acne) that has not responded to other treatment (such as benzoyl peroxide or clindamycin applied to the skin or tetracycline or minocycline taken by mouth). It belongs to a class of drugs known as retinoids. It works by decreasing facial oil (sebum) production. High amounts of sebum can lead to severe acne. If left untreated, severe acne may cause permanent scarring.</p>
+          <p style="color: brown;"><strong > Price:<del>$50</del> $45 </strong></p>
+        </div>
+      </div>
+
+      <!-- Add similar structure for other products -->
+
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var productImages = document.querySelectorAll('.product-image');
+
+      productImages.forEach(function(image) {
+        image.addEventListener('click', function() {
+          var details = this.nextElementSibling;
+          details.classList.toggle('hidden');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

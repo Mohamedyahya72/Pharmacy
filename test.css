@@ -1,0 +1,36 @@
+.pp{
+    /* hi this is my frist css page*/
+    color: rgb(15, 15, 118);
+    text-align:justify;
+    background-color: lightblue;
+    background-image: url(../testing/image/p2.png) ;
+background-repeat: no-repeat;
+background-position: left top;
+margin-right:10px ;
+border: 3px solid black;
+padding: 10px;
+width: 500px;
+height: 400px;
+text-decoration:none;
+text-transform: capitalize;
+font-family: cursive;
+font-style: italic;
+
+}
+p{
+    background-color: r;
+}
+table,td{
+    border-collapse: collapse;
+    border: 2px solid red;
+    width: 100%;
+ padding: 1000000px;
+    margin: 10px;
+
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 20px;
+}

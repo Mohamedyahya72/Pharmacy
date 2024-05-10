@@ -1,0 +1,103 @@
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-image: url("../testing/Medicins/WhatsApp\ Image\ 2024-04-20\ at\ 00.17.53_e32f1133.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 5px 2px  #a29898;
+  }
+  
+  .product {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product .details {
+    flex-grow: 1;
+    
+  }
+  
+  .product h2 {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .product p {
+    color: #777;
+    font-size: 16px;
+  }
+  .purchase-infos  butt :hover {
+    color: rgb(255, 254, 254);
+  }
+ #details{
+  color: white;
+  border: 1.5px solid #ddd;
+  border-radius: 25px;
+  text-align: center;
+  padding: 0.45rem 0.8rem;
+  outline: 0;
+  margin-right: 0.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  width:100px ;
+ }
+#details:last-of-type{
+  background: red;
+}
+#details:hover{
+  color: yellow;
+}
+
+
+
+
+
+
+
+  .purchase-infos{
+    margin: 1.5rem 0;
+}
+.purchase-infos input,
+.purchase-infos .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-infos input{
+    width: 60px;
+}
+.purchase-infos .btn{
+    cursor: pointer;
+    color: #fff;
+}
+
+.purchase-infos .btn:last-of-type{
+    background: red;
+}
+.purchase-infos .btn:hover{
+  color: yellow;
+}

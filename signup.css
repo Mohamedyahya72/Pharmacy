@@ -1,0 +1,115 @@
+body{
+    background-color:transparent;
+    font-family: 'Roboto' sans-serif;
+    background-image:url(../testing/signup-imag.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.Signup-box{
+    width: 400px;
+    height: 645px;
+    margin:auto;
+    background-color:transparent;
+    border-radius: 5px;
+}
+.Login-box{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    border-radius: 5px;
+    background-color:transparent;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    text-shadow:  1px 4px 5px  lightskyblue ;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 350px;
+    padding: 8px;
+    border: none;
+    border: 1px solid turquoise;
+    border-radius: 6px;
+    outline: none;
+}
+img{
+    margin-bottom: -70px;
+    margin-left: -30px;
+}
+input[type="button"]{
+    width: 367px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    background-color:rgb(32, 142, 210);
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 3px 1px black;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.para-2{
+    text-align: center;
+    color:rgb(40, 81, 169);
+    font-size: 20px;
+    margin-top: -90px;
+}
+.para-2 a{
+    color:rgb(13, 177, 232);
+    text-decoration: none;
+}
+.par-2{
+    text-align: center;
+    color:rgb(40, 81, 169);
+    font-size: 20px;
+    margin-top: -10px;
+}
+.par-2 a{
+    color:rgb(13, 177, 232);
+    text-decoration: none;
+}
+.nav-items {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:transparent;
+    margin-right: 40px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 40px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+  }
+  
+  .header .logo {
+    font-size: 25px;
+    font-family: "Sriracha", cursive;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }

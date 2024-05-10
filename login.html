@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="../testing/Login/WhatsApp Image 2024-05-09 at 5.01.51 PM.jpeg ">
+</head>
+<body>
+    <div class="Login-box">
+        <h1>Login</h1>
+        <form method="post" action="home.html">
+            <div>
+                <img id="imgemail" src="../testing/Login/WhatsApp Image 2024-05-09 at 5.02.27 PM.jpeg">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input id="mail" type="email" name="email">
+            </div>
+            <div>
+                <img id="imgpass" src="./Login/icons8-lock-25.png">
+            </div>
+            <div>            
+                <label for="pass">Password</label>
+                <input id="pass" type="password" name="password">
+            </div>
+            <input type="submit" value="Submit" onclick="return validateForm()">
+        </form>
+    </div>
+    <p class="par-2">Not have an account ? <br><a href="signup.html">Sign Up Here</a></p>
+<script >
+
+  function validateForm() {
+    var email = document.getElementById("mail").value;
+    var password = document.getElementById("pass").value;
+
+    // list of accepted emails
+    var acceptedEmails = ["2202347@student.eelu.edu.eg", "2202288@student.eelu.edu.eg", "2202893@student.eelu.edu.eg", "2202412@student.eelu.edu.eg" , "2101905@student.eelu.edu.eg" , "2102079@student.eelu.edu.eg"];
+
+    // list of accepted passwords
+    var acceptedPasswords = ["2202347", "2202288", "2202893", "2202412","2101905","2102079"];
+
+    // check email and password matching
+    if (acceptedEmails.includes(email) && acceptedPasswords.includes(password)) {
+       
+        window.location.href = "home.html";
+        return true;
+    } else {
+        alert("Email Or Password is incorrect");
+        return false;
+    }
+}</script>
+</body>
+</html>

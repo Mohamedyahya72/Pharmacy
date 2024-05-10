@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="login.css">
+    <script>
+    function myFunction1(){
+        var fr = document.forms["myform"]["username"].value;
+        var ps = document.forms["myform"]["pas"].value;
+        if((fr=="suzan" && ps=="2202347" )||
+        (fr=="haneen" && ps=="2202288" )||
+        (fr=="mohamed" && ps=="2202893" )||
+        (fr=="rawan" && ps=="2101905"  )||
+        (fr=="mariam" && ps=="2102079" )||
+        (fr=="mohamed" && ps=="2202412")}
+            window.location.href="home.html";
+        }
+        else{
+            alert("Oppsss !! " )
+        }
+}  
+</script>
+</head>
+
+<body>
+    <div class="cont">
+
+        <div class="formF">
+            <h1>Pharmacy</h1>
+            <p id="pC">log in with</p>
+            <div class="imgLogoFb">
+                <img src="../testing/Login/icons8-facebook-48.png">
+                <a href="https://www.facebook.com/">
+                    <p> Facebook </p>
+                </a>
+
+            </div>
+            <div class="Signup">
+                <b></b>
+                
+                    <h5>
+                        <p class="text" onclick=document.location="file:///Users/mohamedyahya/Downloads/css%20project/testing/signup.html" > Sign up </p>
+                    </h5>
+               
+            </div>
+            <div class="hr">
+                <hr id="hr1">
+
+                <hr id="hr2">
+            </div>
+
+            <form id="myform">
+                <div class="inUser1">
+                    <div class="divImg">
+                        <img id="imgUser" src="../testing/Login/icons8-user-25.png">
+                    </div>
+
+                    <div class="divImg" id="div2">
+                        <img id="imgUser1" src="../testing/Login/icons8-lock-25.png">
+                    </div>
+
+                </div>
+                <div class="inUser">
+
+                    <input type="text" placeholder="User name" name="username">
+                    <input type="password" placeholder="Password" name="pas">
+                </div>
+
+                <button id="btnLogin"  onclick=myFunction1()> log in</button>
+            </form>
+            <div class="supDiv">
+                <input type="checkbox" name="remembre" value="ggg" id="pub-site">
+                <p id="lb" for="pub-site">Remember</p>
+            </div>
+            <div id="fotgt">
+                forget password
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+</html>
